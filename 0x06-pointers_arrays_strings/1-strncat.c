@@ -7,11 +7,10 @@ int _strlen(char *s)
 {
 int b;
 for (b = 0; s[b] != '\0'; b++)
-{							
+{
 }
 return (b);
 }
-
 /**
  * _strncat - function to concatnate strings with n bytes
  * @dest: destination for concatnation
@@ -19,7 +18,6 @@ return (b);
  * @n: int type for size of byte
  * Return: dest
  */
-
 char *_strncat(char *dest, char *src, int n)
 {
 int dest_len;
