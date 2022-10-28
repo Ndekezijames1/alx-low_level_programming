@@ -1,4 +1,4 @@
-nclude "main.h"
+#include "main.h"
 /**
  * reverse_array - reverse an array of int
  * @a: pointer to an array
@@ -9,6 +9,7 @@ void reverse_array(int *a, int n)
 {
 int i, j, temp;
 for (i = 0, j = n - 1; j >= i; i++, j--)
+
 {
 temp = a[i];
 a[i] = a[j];
